@@ -1,0 +1,41 @@
+
+.id-card-img{
+    display: flex;
+    width: 100px;
+    height:100px;
+    border:1px solid #f36d64;
+  }
+  
+  .id-card{
+    display: flex;
+    border-radius: 25px;
+    margin:3px;
+    width:370px;
+    height:200px;
+    background: linear-gradient(to right, #5fb7ef, rgba(186, 223, 247, 0.61),rgb(142, 226, 245)) ;
+  }
+  
+  .sign{
+    display:flex;
+    border:1px solid red;
+    border-radius:  5px;
+    margin : auto;
+    width:50px;
+    height: 50px;
+  }
+
+  #bg{
+    width: 100%;
+    height: 1000px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg,#6acef8ee 0%,#078fc9db 100%);
+    background-repeat: no-repeat;
+}
+
+.col1,.col2{
+  display: inline-block;
+  border: 1px red solid;
+  width: 500px !important;;
+  margin: 10px;
+  padding: 10px;
+}
